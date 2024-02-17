@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8A0C7D2B7E920B004D5749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0C7C2B7E920B004D5749 /* AppDelegate.swift */; };
+		BA8A0C7F2B7E920B004D5749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0C7E2B7E920B004D5749 /* SceneDelegate.swift */; };
+		BA8A0C812B7E920B004D5749 /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0C802B7E920B004D5749 /* RocketsViewController.swift */; };
+		BA8A0C842B7E920B004D5749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0C822B7E920B004D5749 /* Main.storyboard */; };
+		BA8A0C862B7E920C004D5749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0C852B7E920C004D5749 /* Assets.xcassets */; };
+		BA8A0C892B7E920C004D5749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0C872B7E920C004D5749 /* LaunchScreen.storyboard */; };
+		BA8A0C922B7E931B004D5749 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C912B7E931B004D5749 /* Apollo */; };
+		BA8A0C942B7E931B004D5749 /* Apollo-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C932B7E931B004D5749 /* Apollo-Dynamic */; };
+		BA8A0C962B7E931B004D5749 /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C952B7E931B004D5749 /* ApolloAPI */; };
+		BA8A0C982B7E931B004D5749 /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C972B7E931B004D5749 /* ApolloSQLite */; };
+		BA8A0C9A2B7E931B004D5749 /* ApolloTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C992B7E931B004D5749 /* ApolloTestSupport */; };
+		BA8A0C9C2B7EA161004D5749 /* GraphQL in Resources */ = {isa = PBXBuildFile; fileRef = BA8A0C9B2B7EA161004D5749 /* GraphQL */; };
+		BA8A0C9F2B80C13C004D5749 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = BA8A0C9E2B80C13C004D5749 /* SpaceXAPI */; };
+		BA8A0CA12B80C1C5004D5749 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0CA02B80C1C5004D5749 /* NetworkService.swift */; };
+		BA8A0CC32B80EC5C004D5749 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A0CC22B80EC5C004D5749 /* LaunchesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA8A0C792B7E920B004D5749 /* RocketLaunchers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketLaunchers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8A0C7C2B7E920B004D5749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA8A0C7E2B7E920B004D5749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA8A0C802B7E920B004D5749 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
+		BA8A0C832B7E920B004D5749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8A0C852B7E920C004D5749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8A0C882B7E920C004D5749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8A0C8A2B7E920C004D5749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8A0C9B2B7EA161004D5749 /* GraphQL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GraphQL; sourceTree = "<group>"; };
+		BA8A0CA02B80C1C5004D5749 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BA8A0CC22B80EC5C004D5749 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8A0C762B7E920B004D5749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A0C962B7E931B004D5749 /* ApolloAPI in Frameworks */,
+				BA8A0C9A2B7E931B004D5749 /* ApolloTestSupport in Frameworks */,
+				BA8A0C982B7E931B004D5749 /* ApolloSQLite in Frameworks */,
+				BA8A0C922B7E931B004D5749 /* Apollo in Frameworks */,
+				BA8A0C942B7E931B004D5749 /* Apollo-Dynamic in Frameworks */,
+				BA8A0C9F2B80C13C004D5749 /* SpaceXAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3BA5DF2B814174009CB4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA8A0C702B7E920B004D5749 = {
+			isa = PBXGroup;
+			children = (
+				BA8A0C7B2B7E920B004D5749 /* RocketLaunchers */,
+				BA8A0C7A2B7E920B004D5749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8A0C7A2B7E920B004D5749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A0C792B7E920B004D5749 /* RocketLaunchers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8A0C7B2B7E920B004D5749 /* RocketLaunchers */ = {
+			isa = PBXGroup;
+			children = (
+				BA3BA5DF2B814174009CB4C8 /* View */,
+				BA8A0C9B2B7EA161004D5749 /* GraphQL */,
+				BA8A0C7C2B7E920B004D5749 /* AppDelegate.swift */,
+				BA8A0C7E2B7E920B004D5749 /* SceneDelegate.swift */,
+				BA8A0C802B7E920B004D5749 /* RocketsViewController.swift */,
+				BA8A0C822B7E920B004D5749 /* Main.storyboard */,
+				BA8A0C852B7E920C004D5749 /* Assets.xcassets */,
+				BA8A0C872B7E920C004D5749 /* LaunchScreen.storyboard */,
+				BA8A0C8A2B7E920C004D5749 /* Info.plist */,
+				BA8A0CA02B80C1C5004D5749 /* NetworkService.swift */,
+				BA8A0CC22B80EC5C004D5749 /* LaunchesViewController.swift */,
+			);
+			path = RocketLaunchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8A0C782B7E920B004D5749 /* RocketLaunchers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8A0C8D2B7E920C004D5749 /* Build configuration list for PBXNativeTarget "RocketLaunchers" */;
+			buildPhases = (
+				BA8A0C752B7E920B004D5749 /* Sources */,
+				BA8A0C762B7E920B004D5749 /* Frameworks */,
+				BA8A0C772B7E920B004D5749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketLaunchers;
+			packageProductDependencies = (
+				BA8A0C912B7E931B004D5749 /* Apollo */,
+				BA8A0C932B7E931B004D5749 /* Apollo-Dynamic */,
+				BA8A0C952B7E931B004D5749 /* ApolloAPI */,
+				BA8A0C972B7E931B004D5749 /* ApolloSQLite */,
+				BA8A0C992B7E931B004D5749 /* ApolloTestSupport */,
+				BA8A0C9E2B80C13C004D5749 /* SpaceXAPI */,
+			);
+			productName = RocketLaunchers;
+			productReference = BA8A0C792B7E920B004D5749 /* RocketLaunchers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8A0C712B7E920B004D5749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BA8A0C782B7E920B004D5749 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BA8A0C742B7E920B004D5749 /* Build configuration list for PBXProject "RocketLaunchers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8A0C702B7E920B004D5749;
+			packageReferences = (
+				BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				BA8A0C9D2B80C13C004D5749 /* XCLocalSwiftPackageReference "SpaceXAPI" */,
+			);
+			productRefGroup = BA8A0C7A2B7E920B004D5749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8A0C782B7E920B004D5749 /* RocketLaunchers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8A0C772B7E920B004D5749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A0C892B7E920C004D5749 /* LaunchScreen.storyboard in Resources */,
+				BA8A0C862B7E920C004D5749 /* Assets.xcassets in Resources */,
+				BA8A0C9C2B7EA161004D5749 /* GraphQL in Resources */,
+				BA8A0C842B7E920B004D5749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8A0C752B7E920B004D5749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A0C812B7E920B004D5749 /* RocketsViewController.swift in Sources */,
+				BA8A0C7D2B7E920B004D5749 /* AppDelegate.swift in Sources */,
+				BA8A0CC32B80EC5C004D5749 /* LaunchesViewController.swift in Sources */,
+				BA8A0CA12B80C1C5004D5749 /* NetworkService.swift in Sources */,
+				BA8A0C7F2B7E920B004D5749 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA8A0C822B7E920B004D5749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8A0C832B7E920B004D5749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8A0C872B7E920C004D5749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8A0C882B7E920C004D5749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8A0C8B2B7E920C004D5749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8A0C8C2B7E920C004D5749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8A0C8E2B7E920C004D5749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253UYY58R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketLaunchers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roman.boiko.RocketLaunchers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA8A0C8F2B7E920C004D5749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253UYY58R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketLaunchers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roman.boiko.RocketLaunchers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8A0C742B7E920B004D5749 /* Build configuration list for PBXProject "RocketLaunchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A0C8B2B7E920C004D5749 /* Debug */,
+				BA8A0C8C2B7E920C004D5749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8A0C8D2B7E920C004D5749 /* Build configuration list for PBXNativeTarget "RocketLaunchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A0C8E2B7E920C004D5749 /* Debug */,
+				BA8A0C8F2B7E920C004D5749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BA8A0C9D2B80C13C004D5749 /* XCLocalSwiftPackageReference "SpaceXAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SpaceXAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA8A0C912B7E931B004D5749 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		BA8A0C932B7E931B004D5749 /* Apollo-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = "Apollo-Dynamic";
+		};
+		BA8A0C952B7E931B004D5749 /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+		BA8A0C972B7E931B004D5749 /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		BA8A0C992B7E931B004D5749 /* ApolloTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA8A0C902B7E931B004D5749 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloTestSupport;
+		};
+		BA8A0C9E2B80C13C004D5749 /* SpaceXAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpaceXAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA8A0C712B7E920B004D5749 /* Project object */;
+}
