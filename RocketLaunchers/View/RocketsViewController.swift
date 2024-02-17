@@ -4,7 +4,7 @@ import UIKit
 class RocketsViewController: UITableViewController {
     // MARK: - Private Properties
     private var rockets: [RocketsQuery.Data.Rocket] = []
-
+    
     // MARK: - Overrides Methods
     override func viewDidLoad() {
         super.viewDidLoad()

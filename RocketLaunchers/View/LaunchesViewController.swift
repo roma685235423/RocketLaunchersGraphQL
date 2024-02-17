@@ -2,11 +2,10 @@ import UIKit
 import SpaceXAPI
 
 final class LaunchesViewController: UITableViewController {
-    
+    // MARK: - Public Properties
     var rocket: RocketsQuery.Data.Rocket!
     
-    private var launches: [[LaunchFragment]] = []
-    
+    // MARK: - Private Properties
     private let inDateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
@@ -18,6 +17,9 @@ final class LaunchesViewController: UITableViewController {
         return dateFormatter
     }()
     
+    private var launches: [[LaunchFragment]] = []
+    
+    // MARK: - Overrides Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = rocket.name
@@ -55,10 +57,14 @@ final class LaunchesViewController: UITableViewController {
         return cell
     }
     
+    // MARK: - Private Methods
     private func fetchlaunches() {
         let launchFind = LaunchFind(rocketId: rocket.id ?? .none)
         let query = LaunchesQuery(launchFind: .some(launchFind))
-        NetworkService.shared.apolloClient.fetch(query: query, cachePolicy: .returnCacheDataAndFetch) { [weak self] result in
+        NetworkService.shared.apolloClient.fetch(
+            query: query,
+            cachePolicy: .returnCacheDataAndFetch
+        ) { [weak self] result in
             guard let self = self else { return }
             switch result {
             case .success(let value):

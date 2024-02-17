@@ -58,8 +58,45 @@
 		BA3BA5DF2B814174009CB4C8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA8A0C802B7E920B004D5749 /* RocketsViewController.swift */,
+				BA8A0CC22B80EC5C004D5749 /* LaunchesViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BA3BA5E02B815FEF009CB4C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A0C7C2B7E920B004D5749 /* AppDelegate.swift */,
+				BA8A0C7E2B7E920B004D5749 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BA3BA5E12B816012009CB4C8 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A0C872B7E920C004D5749 /* LaunchScreen.storyboard */,
+				BA8A0C822B7E920B004D5749 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		BA3BA5E22B816049009CB4C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A0CA02B80C1C5004D5749 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA3BA5E32B816069009CB4C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A0C852B7E920C004D5749 /* Assets.xcassets */,
+				BA8A0C9B2B7EA161004D5749 /* GraphQL */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BA8A0C702B7E920B004D5749 = {
@@ -81,17 +118,12 @@
 		BA8A0C7B2B7E920B004D5749 /* RocketLaunchers */ = {
 			isa = PBXGroup;
 			children = (
+				BA3BA5E02B815FEF009CB4C8 /* App */,
 				BA3BA5DF2B814174009CB4C8 /* View */,
-				BA8A0C9B2B7EA161004D5749 /* GraphQL */,
-				BA8A0C7C2B7E920B004D5749 /* AppDelegate.swift */,
-				BA8A0C7E2B7E920B004D5749 /* SceneDelegate.swift */,
-				BA8A0C802B7E920B004D5749 /* RocketsViewController.swift */,
-				BA8A0C822B7E920B004D5749 /* Main.storyboard */,
-				BA8A0C852B7E920C004D5749 /* Assets.xcassets */,
-				BA8A0C872B7E920C004D5749 /* LaunchScreen.storyboard */,
+				BA3BA5E12B816012009CB4C8 /* StoryBoards */,
+				BA3BA5E22B816049009CB4C8 /* Services */,
+				BA3BA5E32B816069009CB4C8 /* Resources */,
 				BA8A0C8A2B7E920C004D5749 /* Info.plist */,
-				BA8A0CA02B80C1C5004D5749 /* NetworkService.swift */,
-				BA8A0CC22B80EC5C004D5749 /* LaunchesViewController.swift */,
 			);
 			path = RocketLaunchers;
 			sourceTree = "<group>";
